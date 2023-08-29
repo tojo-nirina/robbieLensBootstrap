@@ -142,3 +142,102 @@ h1{
 .lien-conteneur-photo:hover .photo-hover {
     display: flex;
 }
+
+/* ****responsive*** */
+
+@media screen and (max-width:1200px ) {
+    section {
+        padding: 80px 80px!important;
+    }
+    .container {
+        padding: 80px 80px!important;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .mw-100 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .justify-content-end {
+        margin-top: 30px!important;
+        width: 100% !important;
+    }
+
+    .col-md-6 {
+        width: 100% !important;
+    }
+
+    .col-md-6 img {
+        width: 100% !important;
+    }
+
+    /********/
+
+    .apropos {
+        width: 100%!important;
+    }
+
+    td {
+        padding: 40px!important;
+    }
+
+    .text-center button {
+        width: 80%!important;
+    }
+}
+
+@media screen and (max-width:767px ) {
+    header nav  {
+        display: flex!important;
+        flex-direction: column!important;
+    }
+
+    .container {
+        padding: 80px 20px!important;
+    }
+
+    .container-1 h2 {
+        margin-bottom: 20px!important;
+    }
+
+    section {
+        padding: 80px 20px!important;
+    }
+
+    .mw-100 {
+        max-width: 100%!important;
+        display: flex;
+        flex-direction: column;
+    }
+
+    header, footer {
+        padding: 20px 20px 20px 20px;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    .container h1 {
+        font-size: 2.5em!important;
+    }
+
+    .justify-content-between {
+        flex-direction: column!important;
+    }
+
+    td {
+        padding: 20px!important;
+    }
+
+    .title_portfolio h1 {
+        padding: 0!important;
+    }
+
+    .portfolio-section-photo  .row {
+        gap: 20px!important;
+    }
+}
